@@ -31,6 +31,7 @@ This project demonstrates the full lifecycle of a modern data engineering workfl
 ---
 
 ## Pipeline Flow
+![pipeline flow](docs/pipeline-flow.png)
 
 ### 1. Bronze Layer – Raw Ingestion
 - Ingests raw CSV files from ADLS Gen2 source container.
