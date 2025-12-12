@@ -1,6 +1,6 @@
 
 # Enterprise-Grade Azure Databricks ETL Pipeline  
-![Data Architecture](docs/tech-stack.png)
+![Data Architecture](docs/techstack.png)
 
 ## Overview
 This repository contains a full end-to-end ETL data engineering project designed to replicate a real production-grade data platform. The pipeline ingests raw data from Azure Data Lake Storage Gen2, processes it with Azure Databricks (PySpark + SQL), enforces governance with Unity Catalog, and orchestrates the workflow using Lakeflow Declarative Pipelines.
