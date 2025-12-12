@@ -33,12 +33,12 @@ This project demonstrates the full lifecycle of a modern data engineering workfl
 ## Pipeline Flow
 ![pipeline flow](docs/pipeline-flow.png)
 
-### 1. Bronze Layer – Raw Ingestion
+### 1.🥉 Bronze Layer – Raw Ingestion
 - Ingests raw CSV files from ADLS Gen2 source container.
 - Converts CSV to delta lake streaming tables with schema inference.
 - Stores the managed tables into **bronze** schema as single source of truth.
 
-### 2. Silver Layer – Cleansed & Conformed
+### 2.🥈 Silver Layer – Cleansed & Conformed
 - Transformation applied :
     - Data cleaning and handling missing values.
     - Data standardization and abbreviation handling.
@@ -46,7 +46,7 @@ This project demonstrates the full lifecycle of a modern data engineering workfl
 - Pyspark and dlt are used in this layer.
 - Data stored in **silver** schema as managed streaming tables.
 
-### 3. Gold Layer – Star Schema + KPIs
+### 3.🥇 Gold Layer – Star Schema + KPIs
 - Data modeled into **Star Schema** (fact and dimension tables).
 - Built using SQL pipelines referencing silver tables.
 - Implements:
