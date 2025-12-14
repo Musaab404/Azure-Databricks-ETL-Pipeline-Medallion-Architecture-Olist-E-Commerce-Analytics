@@ -1,5 +1,5 @@
 
-# Azure Databricks ETL Pipeline  
+# Azure Databricks ETL Pipeline Project
 ![Data Architecture](docs/techstack.png)
 
 ## Overview
